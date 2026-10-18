@@ -1,0 +1,12 @@
+{
+  "tool": "Built-in ImageGen",
+  "key": "fascia-flashing",
+  "prompt": "Use case: precise-object-edit. Edit target: the supplied fascia sheet product photograph. Change only the environment, lighting and framing to make it feel grounded in an authentic premium metalworking workshop, not isolated on white. Preserve the EXACT same anthracite thin-sheet fascia geometry: long broad flat rectangular face, one very shallow longitudinal offset near one long edge and narrow flat outer band. No extra flanges, ribs or deep channel. Keep matte charcoal microtexture, accurate thin cut edges and clean finished surface. Put the SAME fascia lying solidly on a clean medium-dark graphite steel workbench with gentle realistic contact shadow. Softly blurred dark industrial workshop behind, subtle side daylight gives clean highlights on the shallow step and edges. Balanced midtones so the dark product remains clearly visible against its darker surroundings. Landscape 3:2 tight editorial product photograph, full product visible with small comfortable margins, realistic scale and perspective, premium precise workmanship. Remove the white seamless studio background entirely. No plastic film, wrapping, tools over the product, text, logos or watermark. Product shape remains unchanged.",
+  "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-26cead5f-f8df-4b44-b61d-265ea8001c27.png",
+  "reference": "assets/photos/originals/fascia-flashing-v3.png",
+  "original": "assets/photos/originals/fascia-flashing-v4.png",
+  "web": [
+    "assets/photos/fascia-flashing-600.webp",
+    "assets/photos/fascia-flashing-1200.webp"
+  ]
+}

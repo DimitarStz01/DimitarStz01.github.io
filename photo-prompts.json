@@ -1,0 +1,367 @@
+{
+  "created": "2026-10-18",
+  "purpose": "Illustrative photorealistic images for the Magimil template; not actual company projects",
+  "images": [
+    {
+      "key": "flashings",
+      "name": "Roof flashing profiles",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. A small assortment of three separate custom roof FLASHINGS resting on a clean gray fabrication bench. One L-shaped apron with tiny folded drip hem, one broad asymmetric Z flashing with offset flanges, one simple inverted V ridge cap. Each is made from a single THIN sheet, not a solid extruded beam. Two charcoal painted pieces and one subtly spangled galvanized piece. Near cut cross sections face the camera and clearly reveal thin walls and authentic folds. Low three-quarter close product shot, parallel lengths recede naturally toward background. No thick construction beams, no rain gutters in this image.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-1be87e2f-81c2-425f-ade5-b994e29375db.png",
+      "original": "assets/photos/originals/flashings.png",
+      "variants": [
+        "assets/photos/flashings-600.webp",
+        "assets/photos/flashings-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "gutters",
+      "name": "Seamless K-style gutters",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. A correct dark anthracite K-STYLE/OGEE seamless metal rain gutter sample, 1.2 m long, on a neutral gray workbench. Open top visible, flat straight vertical rear wall, flat bottom, decorative double-curved ogee front face and folded stiffening upper front lip. The near end is OPEN with no end cap so its thin sheet profile is unmistakable; a loose matching fitted end cap sits beside the FAR end. Real roll-formed sheet metal, European rainwater product photography, top/three-quarter view showing channel interior. Do not make half-round pipe, corrugated roofing, square box tube or I beam. A believable flat rear for fascia mounting.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-c7d7055b-8cc0-4c29-8687-b7b7b782588d.png",
+      "original": "assets/photos/originals/gutters.png",
+      "variants": [
+        "assets/photos/gutters-600.webp",
+        "assets/photos/gutters-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "standing-seam",
+      "name": "Standing seam roof",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. Detailed architectural photography of an installed dark anthracite DOUBLE-LOCK STANDING SEAM metal roof (Schlebach-type): six broad completely flat metal pans, slender upright folded seams running straight from ridge to eave with correct parallel spacing, a clean diagonal roof eave at lower foreground. Close crop emphasizes locked raised seams and thin neat metal edges, white stucco gable softly visible at side, countryside sky softly out of focus. No screw heads through pans, no trapezoidal corrugations, no tiles, no wavy seams. Crisp understated real roofing detail shot in soft morning sun.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-42f533dc-af37-437d-92b6-f94e3bd78e25.png",
+      "original": "assets/photos/originals/standing-seam.png",
+      "variants": [
+        "assets/photos/standing-seam-600.webp",
+        "assets/photos/standing-seam-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "metal-soffit",
+      "name": "Metal hunter soffit",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. Look upward from beneath the eave corner of a neat modern white rendered house at a METAL LINEAR SOFFIT lining (Bulgarian 'metalen hunter'). Narrow flat anthracite folded metal slats run PERPENDICULAR from wall to fascia, forming a flat horizontal underside with uniform tiny recessed shadow joints. A straight charcoal metal fascia and correctly mounted K-style gutter run along the outer edge; the cream white wall is below. Tight architectural closeup showing the underside rather than the roof slope. Smooth thin steel, no wood grain, no roof tiles visible as the main subject, no deep corrugated warehouse panel, no diagonal lattice.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-0fd15d63-cdca-4c39-b641-ca9504b760d9.png",
+      "original": "assets/photos/originals/metal-soffit.png",
+      "variants": [
+        "assets/photos/metal-soffit-600.webp",
+        "assets/photos/metal-soffit-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "fence-slats",
+      "name": "Folded metal fence slats",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. Real exterior close-up of a contemporary fence built from uniform HORIZONTAL anthracite thin folded sheet metal LOUVER SLATS between two upright rectangular steel posts. Flat broad slat faces with small folded return edges, consistent narrow see-through gaps, authentic realistic construction and clean joinery. Fence occupies most of frame, simple Bulgarian garden and cream house softly out of focus. Beside the fence in the foreground on a work trestle lie two short loose matching slat samples with their thin folded return cross-sections clearly visible. Do not depict timber, wire mesh, solid forged bars, or seamless impossible fused sheets.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-d0b50ee9-5b72-46f0-8761-956e91ccbd05.png",
+      "original": "assets/photos/originals/fence-slats.png",
+      "variants": [
+        "assets/photos/fence-slats-600.webp",
+        "assets/photos/fence-slats-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "downpipes",
+      "name": "Downpipes and elbows",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. A carefully arranged product still life on a gray metal fabrication bench: TWO smooth round anthracite galvanized sheet metal rainwater DOWNPIPE lengths, TWO matching 72-degree circular downpipe ELBOWS with plausible swept formed segments and slightly crimped socket ends, and one matching wall mounting clamp. All have a consistent realistic circular diameter roughly 100 mm, thin sheet wall thickness visible at the open near pipe mouth, seam only subtle. No flexible hose, no square HVAC duct, no huge sewer plumbing, no magically merged pipes. Everything disconnected as separate orderable components, soft warehouse background.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-0657498c-363e-43da-9760-6dbe21eef3d5.png",
+      "original": "assets/photos/originals/downpipes.png",
+      "variants": [
+        "assets/photos/downpipes-600.webp",
+        "assets/photos/downpipes-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "rain-hopper",
+      "name": "Gutter rainwater hopper",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. One realistic anthracite folded SHEET METAL RAINWATER HOPPER / gutter collector box (Bulgarian kazanche za uluk), tabletop product photography. A small rectangular open-top box with flat upright backplate that extends above it for wall mounting, two sloping lower side faces funnel down to one short round open outlet spigot beneath. Thin folded steel panels with restrained real seams/rivets at corners. Front three-quarter elevated view shows the open rectangular collection chamber and circular lower outlet together. Neutral bench, soft workshop background. No kitchen sink, no plant pot, no water tap, no decorative bucket, no square closed box without water outlet.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-3c643f0e-e8a3-44cb-a635-8c9c58fba65b.png",
+      "original": "assets/photos/originals/rain-hopper.png",
+      "variants": [
+        "assets/photos/rain-hopper-600.webp",
+        "assets/photos/rain-hopper-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "fascia-flashing",
+      "name": "Fascia board flashing",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. A single long anthracite folded sheet-metal FASCIA COVER profile on a gray workbench. It is an open U-like wrap with a broad flat vertical front face about 180 mm high, a SHORT horizontal top return flange and a tiny outward-bottom drip hem, with one open cut end visible close to camera. A second shorter galvanized sample beside it shows the thin sheet cross section. Precision brake folds and realistic small corner radii, not thick extruded steel. Perspective along length, soft natural daylight. No I beams, no fence pieces, no closed box tubing.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-ce5b78da-47d5-4439-83a7-6805547a7117.png",
+      "original": "assets/photos/originals/fascia-flashing.png",
+      "variants": [
+        "assets/photos/fascia-flashing-600.webp",
+        "assets/photos/fascia-flashing-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "hall-flashings",
+      "name": "Metal hall flashing detail",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. Close architectural photo of a real-looking industrial hall facade CORNER, clad in pale gray vertical trapezoidal metal sheets. A correctly folded smooth anthracite external CORNER FLASHING covers the junction between the two wall planes, broad flat legs fit both surfaces, orderly small fasteners located on high ribs and appropriately aligned. Matching roof-edge flashing and a small section of rain gutter visible at upper edge. Focus on the custom bent corner and neat sheet junction, not on a whole enormous building. Soft overcast daylight, technically plausible construction, no brand signage, no people.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-027bbd24-f99d-4980-8465-87d49a50c2f4.png",
+      "original": "assets/photos/originals/hall-flashings.png",
+      "variants": [
+        "assets/photos/hall-flashings-600.webp",
+        "assets/photos/hall-flashings-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "sheet-bending",
+      "name": "Sheet bending process",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. Photorealistic CLOSE detail of a LONG FOLDING BRAKE for thin sheet-metal fabrication, not a massive short press-brake punch. Gray industrial machine, straight clamping beam and pivoting lower folding apron, continuous thin galvanized steel sheet clamped along a perfectly straight edge with a newly formed 90 degree flange pointing upward. Tool contact physically coherent. View down the straight machine bed into background gives sense of long equipment. Tight detail on the actual bend and metal surface, no screens or logos, no people or hands. Believable clean modest workshop; do not show impossible floating tools, solid I beam extrusion, enormous forge, sparks or molten metal.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-5d1f18ac-9009-45ff-a9b4-c536aac40aae.png",
+      "original": "assets/photos/originals/sheet-bending.png",
+      "variants": [
+        "assets/photos/sheet-bending-600.webp",
+        "assets/photos/sheet-bending-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "sheet-slitting",
+      "name": "Sheet slitting process",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. Photorealistic close-up of a compact sheet metal COIL SLITTING machine (not laser cutting). A flat silver galvanized thin steel strip runs horizontally through a single pair of correctly aligned circular rotary shear discs on parallel shafts; the broad sheet separates into two narrower straight clean strips after the cutting point. The steel is visibly thin with no jagged blade tearing. Real roller guides, small natural scuffs, restrained gray workshop background out of focus. Technical commercial detail photography. No sparks, no laser, no saw teeth, no thick metal slab, no impossible overlapping discs cutting empty space.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-58ce3467-72b9-4f69-9815-d21060713bf9.png",
+      "original": "assets/photos/originals/sheet-slitting.png",
+      "variants": [
+        "assets/photos/sheet-slitting-600.webp",
+        "assets/photos/sheet-slitting-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    },
+    {
+      "key": "finished-roof",
+      "name": "Completed metal roof application",
+      "prompt": "Use case: photorealistic-natural. Asset: image for the Bulgarian Magimil sheet metal fabrication website, illustrative product photography, not documentation of real client work. Landscape 3:2 framing, premium but believable industrial commercial photography, natural soft daylight, physically correct thin-gauge folded sheet steel with subtly visible cut edges, restrained anthracite and silver palette, moderate shallow depth of field with important geometry sharp. Natural fine scratches and surface texture, realistic scale. Entire main item comfortably framed with generous crop safety. Absolutely no text, no captions, no logos, no watermark, no collages, no diagrams, no CGI look, no fantasy machinery, no impossible geometry. Architectural photograph of the roof and eave corner of a modest tasteful contemporary Bulgarian single-storey house. Correct anthracite standing-seam metal gable roof with broad flat pans and slim parallel double-lock seams, matching precise fascia flashing, continuous K-style rain gutter on correct outer eave, round downpipe at corner and linear metal soffit underneath, white plaster walls with small natural timber accent below. Camera at elevated three-quarter position, roof fills two thirds of image with detail visible, soft countryside background and daylight. A believable everyday construction scale, no luxury mansion, no impossible roof planes, no flags, no signs, no company logos, no people.",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-85c22048-85bb-40af-ab4d-deb019496bc2.png",
+      "original": "assets/photos/originals/finished-roof.png",
+      "variants": [
+        "assets/photos/finished-roof-600.webp",
+        "assets/photos/finished-roof-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true
+    }
+  ],
+  "revisions": [
+    {
+      "key": "gutters",
+      "prompt": "Use case: photorealistic-natural. Create a landscape 3:2 realistic roofing product photograph, not a diagram. Subject is a clearly recognizable AMERICAN SEAMLESS K-STYLE OGEE RAIN GUTTER, six-inch style, made by onsite continuous roll-forming of thin pre-painted steel sheet. ONE dark charcoal anthracite gutter length on a neutral workshop bench at a shallow three-quarter angle. Critical correct cross section: straight flat vertical rear mounting wall, broad FLAT bottom, and taller ornate FRONT face with TWO shallow angular ogee steps/S-shaped cornice silhouette and a squared folded box lip at the top. This front face MUST look like a classic American K-style gutter, NOT a half-round European gutter, not a simple rounded U or a large curled semicircular front. Thin sheet material, crisp controlled bends and hems, authentic small corner radii. NEAR END IS OPEN to clearly expose this K/ogee cross-section. Long gutter extends away across the frame, all sides of the near section comfortably inside frame. A correctly matching K-style end cap sits loose near the far end. The top channel opening is visible and clear, no pipe, no water, no tools or clutter. Soft daylight, believable premium commercial photography, real metal microtexture, sharp near cross-section with gentle background blur. No text, no logos, no dimensions, no borders, no watermark. This is an illustrative example for a Bulgarian roofing firm's website.",
+      "reference": null,
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-a8777c8f-55ab-461c-9bd8-a630fe7af09a.png",
+      "original": "assets/photos/originals/gutters-v2.png",
+      "variants": [
+        "assets/photos/gutters-600.webp",
+        "assets/photos/gutters-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true,
+      "revision": 2
+    },
+    {
+      "key": "sheet-bending",
+      "prompt": "Use case: precise-object-edit. The supplied image is a reference for the MACHINE ONLY, not a layout to preserve. Create a landscape 3:2 photorealistic industrial photograph of a modern ELECTRONIC LONG SHEET METAL FOLDING MACHINE with EIGHT METRES working length, matching the characteristic gray/red machine in the reference: a very long continuous straight clamping/folding beam, repeated arched support frames along its length, a freestanding touchscreen display on a swiveling overhead arm, gray structural legs and orange foot pedals. Show the ENTIRE long machine end to end at a slightly elevated wide three-quarter angle inside a clean believable sheet metal workshop. Make its exceptional eight-metre length apparent relative to normal doors and human-scale control screen, without people. The illuminated electronic touchscreen must be plainly visible with a generic colored profile-control UI, no legible text. Place one thin silver sheet clamped straight in the bed, a shallow bent edge visible. Preserve credible industrial geometry and the reference machine design. Remove ALL advertising text, company logo, phone number, red-black graphic background, watermarks and printed branding. Replace backdrop with real gray concrete floor, pale workshop wall and natural daylight. No old manual bench brake, no small two-metre machine, no short press brake with massive punch. Illustrative equipment photo, not an assertion this is an actual company workshop.",
+      "reference": "Provided Magimil business card, first image",
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-2b50dd4f-8f37-4709-8863-1a1b2612715f.png",
+      "original": "assets/photos/originals/sheet-bending-v2.png",
+      "variants": [
+        "assets/photos/sheet-bending-600.webp",
+        "assets/photos/sheet-bending-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true,
+      "revision": 2
+    },
+    {
+      "key": "sheet-slitting",
+      "prompt": "Use case: photorealistic-natural. Landscape 3:2 realistic product photography of a SHEET METAL COIL SLITTER / LONGITUDINAL SLITTING MACHINE used in a small roofing sheet-metal workshop (Bulgarian tsepachka za lamarina). Show the whole plausible COMPACT MOTORIZED machine, not a macro of huge disks: a rigid gray welded stand on four legs, horizontal upper and lower parallel shafts across about 1.25m working width, several SMALL circular rotary shear knife pairs correctly overlapping at the sheet plane, adjustable sheet guiding rollers, guarded electric drive at one side and a simple emergency stop switch. A single wide thin galvanized sheet feeds through the guide and emerges as three straight narrow strips on a flat receiving table, no cutout slot, no thick stock, no sparks. Gray/red neutral equipment palette, pale clean workshop, soft daylight, credible human-scale proportions. No wood splitting machine, no guillotine, no laser cutter, no bending brake, no gigantic sharp wheels, no text, no branding, no watermark. Full machine comfortably in frame. Illustrative photo.",
+      "reference": null,
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-27891f75-f346-4489-a3fe-924ab84f2170.png",
+      "original": "assets/photos/originals/sheet-slitting-v2.png",
+      "variants": [
+        "assets/photos/sheet-slitting-600.webp",
+        "assets/photos/sheet-slitting-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true,
+      "revision": 2
+    },
+    {
+      "key": "rain-hopper",
+      "prompt": "Use case: product-mockup. Landscape 3:2 highly realistic photograph of ONE ROUND sheet-metal RAINWATER HOPPER / round gutter collector for a downpipe, Bulgarian OBLO KAZANCHE ZA ULUK. The collector is entirely ROUND in cross section: open circular bowl/cylindrical upper chamber about 220mm diameter with a neatly rolled rim, a circular conical funnel tapering smoothly below to one short ROUND open outlet pipe about 100mm diameter. True thin folded galvanized steel painted matte anthracite, restrained fine seams and realistic metal surface. Three-quarter elevated close angle shows the OPEN ROUND top and round outlet beneath. On a neutral gray workbench with softly blurred workshop. Important: no square or rectangular box, no angular pyramidal funnel, no large rectangular backplate, no kitchen sink, no bucket handle, no flowerpot, no faucet. One small discreet mounting tab behind is acceptable. Entire object inside frame with comfortable margins. No text, no labels, no logos, no watermark. This is an illustrative gutter component photo.",
+      "reference": null,
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-24ee9491-8cd8-4e8c-899b-0f728e275465.png",
+      "original": "assets/photos/originals/rain-hopper-v2.png",
+      "variants": [
+        "assets/photos/rain-hopper-600.webp",
+        "assets/photos/rain-hopper-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true,
+      "revision": 2
+    },
+    {
+      "key": "fascia-flashing",
+      "prompt": "Use case: photorealistic-natural. Landscape 3:2 clear architectural closeup photograph of a DIFFERENT METAL FASCIA BOARD COVER, Bulgarian chelna daska ot lamarina, installed along the straight front eave of a modest house. The main subject is a wide flat vertical ANTHRACITE sheet metal fascia face about 180mm high, long and continuous, with a crisp short top fold tucked under the roof edge and a small neatly folded lower drip hem. Camera slightly from below and diagonally along the eave so the broad FRONT FACE is dominant and the real thin folded lower edge is visible. Pale white plaster wall and a narrow neutral soffit below, a little standing-seam roof visible above. No rain gutter across the main fascia face so it stays clearly visible; no wood grain, no I beam, no structural box tube, no open C-channel on a bench, no crown molding. Very precise but plausible roof finishing details, mild daylight, realistic metal microtexture. No labels, no text, no logos, no watermark. This is an illustrative fascia installation, not a real client project.",
+      "reference": null,
+      "source_path": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-cb1e833b-8ff4-4a5a-8837-c0feabe693da.png",
+      "original": "assets/photos/originals/fascia-flashing-v2.png",
+      "variants": [
+        "assets/photos/fascia-flashing-600.webp",
+        "assets/photos/fascia-flashing-1200.webp"
+      ],
+      "generator": "Built-in ImageGen",
+      "illustrative": true,
+      "revision": 2
+    }
+  ],
+  "revision_3": {
+    "revision": 3,
+    "images": [
+      {
+        "key": "rain-hopper",
+        "prompt": "Use case: product-mockup. Create a NEW photorealistic product photograph for a Bulgarian gutter maker website. Landscape 3:2. ONE traditional BULGARIAN GUTTER RAINWATER COLLECTOR, 'oblo kazanche za teglen uluk', of the kind sold for American K-style seamless gutters. Shape is CRITICAL: a STRAIGHT FLAT BACK panel and a gently CONVEX BOWED FRONT panel. It is NOT a round cylinder, NOT a round bowl, NOT a circular cone, and NOT a rectangular angular box. Plan view is a shallow D shape: straight rear edge, two short flat side returns, one broad shallow bowed front, wider than deep. Upper opening follows the SAME shallow D perimeter, with the straight back edge fully visible from the elevated three-quarter FRONT-RIGHT camera angle. Body front has a very gentle convex curve from side to side and tapers slightly inward toward the bottom, with subtle real folded joins at the short flat side returns. Below this flat-backed bowed-front collection chamber is one short ROUND downpipe outlet, centered, approximately 100mm visual scale. The flat rear panel rises modestly behind the open top as a straight mounting flange with two small mounting holes; no huge backplate. A small discreet notch near rear upper side can accommodate an incoming K-style gutter. Overall chamber about 260mm wide, 120mm deep and 240mm high, shallow bowed front radius, NOT semicircular bucket depth. Thin galvanized steel painted matte anthracite, correctly rolled top lip, tiny authentic joints, realistic fine metal texture. On a gray workshop table in soft daylight with shallow background blur, all of the object in frame. Premium but believable technical product photography. Absolutely no text, no branding, no watermark, no copied vendor photo, no handles, no faucet, no decorative flowerpot. It is an independently generated illustrative product, preserving only the functional type and generic geometry researched from Bulgarian catalogues.",
+        "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-b33f590d-c419-4680-8a78-b19122ecfbce.png",
+        "original": "assets/photos/originals/rain-hopper-v3.png",
+        "web": [
+          "assets/photos/rain-hopper-600.webp",
+          "assets/photos/rain-hopper-1200.webp"
+        ],
+        "shape_research": "https://meda-bg.com/bg/golyamo-oblo-kazanche-za-teglen-uluk-6-ot-potsink/p197.html"
+      },
+      {
+        "key": "fascia-flashing",
+        "prompt": "Use case: precise-object-edit / product presentation. Input image is the exact PRODUCT GEOMETRY REFERENCE. Create a new premium photorealistic catalogue photograph of THE SAME thin anthracite sheet-metal fascia board shown on the workbench, with all packaging removed. Preserve the exact distinctive shape visible in the reference: a long wide mostly FLAT rectangular sheet, a broad flat main face occupying roughly 75 percent of the width, then ONE shallow straight longitudinal offset/step close to one long edge, followed by a NARROW FLAT parallel edge band occupying roughly 20 percent. Two subtle straight crease lines form a small low step between main face and narrow band. It is an almost planar brake-folded sheet with a shallow offset, NOT a deep U or C channel, NOT a rectangular box beam, NOT tall vertical sidewalls, NOT a mounted house fascia. Very thin sheet cut edges, straight true folds, no invented extra ribs or tall upstands. Match matte fine-textured charcoal/anthracite gray surface from reference. Present ONE full clean unwrapped finished length on a clean light neutral gray product photography surface, angled diagonally across a landscape 3:2 image, seen from above at about 35 degrees so both the broad face and shallow edge step read clearly. The near cut end and entire shallow cross section are visible; comfortable margins on all sides. Professional soft side lighting creates a controlled narrow highlight along the shallow fold, realistic shadow under thin sheet. Elegant, believable, precise product photography for a sheet-metal manufacturer, not CGI. Remove plastic film, film roll, transparent wrapping, dust, workshop machine, scratched brown table, screenshot black bars, orange dot, tools, text, logos, people and clutter. No protective plastic at all. Do not change product profile to improve aesthetics. The supplied fascia's physical shape must remain recognizable.",
+        "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-3ec3c7d2-62cc-4146-a6dc-388240c480ad.png",
+        "original": "assets/photos/originals/fascia-flashing-v3.png",
+        "web": [
+          "assets/photos/fascia-flashing-600.webp",
+          "assets/photos/fascia-flashing-1200.webp"
+        ],
+        "reference": "references/fascia-user-reference.png"
+      }
+    ]
+  },
+  "revision_4": {
+    "tool": "Built-in ImageGen",
+    "key": "fascia-flashing",
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied fascia sheet product photograph. Change only the environment, lighting and framing to make it feel grounded in an authentic premium metalworking workshop, not isolated on white. Preserve the EXACT same anthracite thin-sheet fascia geometry: long broad flat rectangular face, one very shallow longitudinal offset near one long edge and narrow flat outer band. No extra flanges, ribs or deep channel. Keep matte charcoal microtexture, accurate thin cut edges and clean finished surface. Put the SAME fascia lying solidly on a clean medium-dark graphite steel workbench with gentle realistic contact shadow. Softly blurred dark industrial workshop behind, subtle side daylight gives clean highlights on the shallow step and edges. Balanced midtones so the dark product remains clearly visible against its darker surroundings. Landscape 3:2 tight editorial product photograph, full product visible with small comfortable margins, realistic scale and perspective, premium precise workmanship. Remove the white seamless studio background entirely. No plastic film, wrapping, tools over the product, text, logos or watermark. Product shape remains unchanged.",
+    "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-26cead5f-f8df-4b44-b61d-265ea8001c27.png",
+    "reference": "assets/photos/originals/fascia-flashing-v3.png",
+    "original": "assets/photos/originals/fascia-flashing-v4.png",
+    "web": [
+      "assets/photos/fascia-flashing-600.webp",
+      "assets/photos/fascia-flashing-1200.webp"
+    ]
+  },
+  "revision_5": {
+    "tool": "Built-in ImageGen",
+    "key": "rain-hopper",
+    "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-65c573b3-1c13-4d37-8adb-37bf6c91e07d.png",
+    "prompt": "Use case: product-mockup. Input image: physical SHAPE and color reference only. Recreate ONLY THE CENTRAL BROWN RAINWATER HOPPER in the supplied screenshot as a NEW high quality photorealistic product photograph. Ignore all neighboring gray products and phone screenshot UI. The central brown collector has a tall gently tapering body, wide open D-shaped mouth, ONE straight FLAT REAR WALL/chord, and a smoothly curved convex FRONT wall, narrower lower body ending in short circular downpipe outlet. Body height approximately equal to mouth width or slightly taller, not squat. Two narrow shallow horizontal stamped bead lines across the curved front just below its thin upper rim, exactly as reference. Galvanized silver inner surfaces visible inside open top, dark chocolate brown painted exterior with subtle believable satin reflections, thin sheet metal edges, fine folded rear seam. Preserve silhouette, proportions, flat back and curved front of the CENTRAL BROWN object. No full circular bowl, no bucket handle, no faceted rectangular box, no pronounced separate pyramidal funnel, no added enormous back mounting plate. Entire SINGLE object visible on a clean dark gray workshop table with realistic contact shadow, softly blurred restrained workshop background, soft daylight and crisp metal details. Landscape 3:2 composition, close enough to see the two upper pressed beads and D-shaped mouth, comfortable margins, slight elevated three-quarter view similar to reference. Polished authentic catalogue photography, not a white cutout, not an illustration. No text, logos, watermarks, plastic packaging, phone interface, extra objects or other hopper variants.",
+    "reference": "references/rain-hopper-user-reference.png",
+    "original": "assets/photos/originals/rain-hopper-v5.png",
+    "web": [
+      "assets/photos/rain-hopper-600.webp",
+      "assets/photos/rain-hopper-1200.webp"
+    ]
+  },
+  "revision_6": {
+    "tool": "Built-in ImageGen",
+    "key": "rain-hopper",
+    "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-23fe56bb-7b84-4f0e-8afe-b9f39fe05bfc.png",
+    "prompt": "Use case: precise-object-edit. Edit the supplied product photograph with ONE change only: recolor the entire BROWN exterior of the rainwater hopper, including outer rim, two shallow beads and outlet pipe, to MATTE ANTHRACITE CHARCOAL GRAY (neutral RAL 7016-like, no brown, satin fine powder-coat texture). Match the refined dark gray metal used for roofing flashings. Preserve EXACT product geometry and silhouette, D-shaped open top, flat rear wall, rounded front, tall tapering body, two shallow horizontal upper beads, circular outlet, silver galvanized interior. Preserve camera, composition, workbench, background, lighting, contact shadow and all other details unchanged. Material highlights should be subtle realistic soft silver-gray, not glossy plastic or black. No labels, text, logos, watermark, wrapping, additional objects, white backdrop or new details.",
+    "reference": "assets/photos/originals/rain-hopper-v5.png",
+    "original": "assets/photos/originals/rain-hopper-v6.png",
+    "web": [
+      "assets/photos/rain-hopper-600.webp",
+      "assets/photos/rain-hopper-1200.webp"
+    ]
+  },
+  "revision_8": {
+    "tool": "Built-in ImageGen",
+    "images": [
+      {
+        "key": "metal-soffit",
+        "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-f512fccc-2617-4a47-b803-3b32415b9f36.png",
+        "prompt": "Use case: photorealistic-natural. Input image is a REAL INSTALLATION GEOMETRY REFERENCE supplied by a Bulgarian sheet-metal installer. Create a NEW photorealistic illustrative close-up of a similar METAL SOFFIT / Bulgarian metalen hantar, matching the actual construction in reference. Preserve recognizable panel system: broad flat thin painted sheet-metal soffit strips, very shallow narrow straight joints, transverse panels below two meeting eaves, neatly framed straight perimeter flashings and clean diagonal corner joining trim, fascia above. NOT narrow ribbed aluminum slats, not timber boards, not corrugated wall sheets. Camera looks up underneath the corner like reference. Smooth matte anthracite gray metal, natural fine finish, physically thin folded edges, precise plausible seam spacing, neutral pale rendered wall at left, small blue sky at right. Clean professional finished installation with natural daylight, realistic scale, credible attachments and geometry. Remove temporary drain tube wrapping, exposed tools, phone borders and clutter. Landscape 3:2 crop, soffit corner and its two panel directions clearly shown and dominant, premium authentic architectural photograph, no showroom CGI. No text, labels, logos, watermark or people. This is a generated example based on the reference, not a photograph of an actual company project.",
+        "reference": "assets/photos/originals/project-metal-soffit.jpg",
+        "original": "assets/photos/originals/metal-soffit-v2.png"
+      },
+      {
+        "key": "hero-real-profiles",
+        "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-1811da14-f313-4093-bec6-c9063dc74096.png",
+        "prompt": "Use case: product-mockup. Create a photorealistic isolated hero asset for a custom roofing sheet-metal fabrication company. Reference image 1 defines EXACT shape of a fascia blank: broad almost-flat thin anthracite rectangular sheet with just one shallow longitudinal step near one edge and a narrow flat outer band. Reference 2 defines correct American K-style seamless gutter section with straight back, flat bottom, shaped stepped front and folded lip. Show THREE discrete actual fabricated sheet-metal components: this broad shallow-step fascia blank in the foreground, ONE simple galvanized silver L-shaped roof corner flashing with short folded drip hem behind it, and a SHORT American K-style anthracite gutter length at the rear. Make them authentic THIN roofing sheet metal about 0.5mm, not extruded solid metal, not heavy structural beams, not giant fantasy Z sections, no additional impossible bends. Parts arranged in a compact premium three-quarter product composition, parallel diagonal axes, near cut ends visible separately to expose real thin cross sections. Entire objects visible with comfortable margin, no intersecting geometry, no merged parts. Restrained neutral metal tones, soft bright edge highlights and detailed believable finish. Elegant editorial product photograph, crisp natural material details, no cartoon, no exaggerated chrome. Completely transparent background, no workshop, no table, no white canvas, no backdrop, no text, dimensions, logos or watermark. Preserve simple functional geometry of the supplied references, not their backgrounds. Wide landscape 3:2 composition.",
+        "references": [
+          "assets/photos/originals/fascia-flashing-v4.png",
+          "assets/photos/originals/gutters-v2.png"
+        ],
+        "original": "assets/folded-metal-v2.png",
+        "web": "assets/folded-metal-v2.webp"
+      }
+    ]
+  },
+  "hero_revision_3": {
+    "tool": "Built-in ImageGen",
+    "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-843c3b94-7d5b-43a2-83f2-1ef8a6b23dda.png",
+    "prompt": "Use case: precise-object-edit. Edit this exact existing hero composition with ONE precise removal: DELETE THE CENTRAL SILVER GALVANIZED L-SHAPED ANGLE FLASHING completely. Keep ONLY the foreground broad flat ANTHRACITE FASCIA SHEET with shallow longitudinal step and the rear ANTHRACITE AMERICAN K-STYLE GUTTER. Preserve these TWO accepted objects' exact geometry, colors, finish, perspective, cut edges and silhouettes. Do NOT invent a replacement object, do NOT redesign the remaining sheet or gutter. Balance the TWO remaining objects into a compact elegant parallel diagonal composition, with a modest gap, full objects inside the frame and comfortable margins. The foreground fascia remains broad and nearly flat with its single shallow edge offset, the rear gutter keeps its straight high back, flat bottom and stepped front lip. Remove all traces and shadows of the silver middle angle. Photorealistic product asset, thin real sheet metal, same soft metallic lighting. Genuine transparent background. No table, white canvas, printed checkerboard, text, lines, dimensions, logos, additional pieces, extra bends or props. Exactly TWO components only.",
+    "reference": "assets/folded-metal-v2.png",
+    "png": "assets/folded-metal-v3.png",
+    "web": "assets/folded-metal-v3.webp"
+  },
+  "fence_revision_2": {
+    "tool": "Built-in ImageGen",
+    "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-432f0aa2-b165-4c96-b90b-f1c8e7732260.png",
+    "prompt": "Use case: precise-object-edit / product-mockup. The supplied screenshot is a PRODUCT PROFILE REFERENCE. Create a NEW premium photorealistic catalogue photograph of the same kind of sheet-metal FENCE LOUVRE SLATS, Bulgarian lameli za ograda. Match the actual reference geometry, not generic flat fence boards: five horizontally stacked brake-folded thin steel blades, each has a broad SLANTED flat face and SHORT RETURN FOLDS / folded hook-like lips along both long edges. The open near left ends clearly expose the shallow folded angular louvre cross section and tiny rounded/hemmed return. The inclined blades overlap in elevation like privacy shutters with consistent gaps, supported by discreet vertical dark metal rails. A compact demonstration panel, slightly seen from its left end so the true bent cross sections and broad inclined faces are clearly legible, similar angle to supplied reference. Matte fine-textured neutral ANTHRACITE gray coated thin sheet, physically plausible millimeter-scale metal thickness, crisp true bends, believable joints. Entire sample panel comfortably within a landscape 3:2 frame on a clean dark gray metalwork bench, softly defocused tidy workshop background, side daylight and restrained realistic highlights. Remove all screenshot UI, vendor names, all lettering, arrows, measurements, annotations, wood base and other products. No white cutout background. No straight rectangular box tube rails pretending to be blades, no wooden planks, no solid extrusion, no generic vertical pickets. Preserve the recognizable reference louvre forms; do not invent a new fancy profile. Professional realistic product photo, not CGI, no text, logo, watermark or people. Illustrative example, not an actual completed company job.",
+    "reference": "references/fence-slats-user-reference.png",
+    "original": "assets/photos/originals/fence-slats-v2.png",
+    "web": [
+      "assets/photos/fence-slats-600.webp",
+      "assets/photos/fence-slats-1200.webp"
+    ]
+  },
+  "hall_revision_2": {
+    "tool": "Built-in ImageGen",
+    "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-272b409b-6486-4ef9-8ed9-04dfd0f17444.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET (corner of metal industrial hall). Image 2 is the shape reference for the American seamless K-style gutter. Change ONLY the rain gutter along the upper RIGHT eave of image 1: remove the existing half-round semicircular gutter and replace it with a correctly installed dark anthracite AMERICAN SEAMLESS K-STYLE / OGEE rain gutter. Correct section: straight rear wall attached to fascia, broad FLAT bottom, formed FRONT wall with shallow angular ogee/S-like steps and a neat folded box lip, matching image 2. A single continuous seamless run with NO repeating external union bands or section joints. Subtle concealed mounting hangers; a clean fitted end cap at the near left end by the hall corner so the K/ogee outline is visible. Plausible thin sheet-metal thickness, normal roof-gutter proportions, precise contact with existing fascia. Preserve the rest of image 1 exactly: same anthracite vertical corner flashing, upper edge flashings, silver wall panels, screws, architecture, cloudy sky, camera, crop, lighting and textures. The corner flashing remains the main subject; don't change the building. No half-round or round U-channel, no oversized box drain, no text, logos or watermark. Photorealistic architectural component photo, landscape 3:2. Background remains opaque as input.",
+    "references": [
+      "assets/photos/originals/hall-flashings.png",
+      "assets/photos/originals/gutters-v2.png"
+    ],
+    "original": "assets/photos/originals/hall-flashings-v2.png",
+    "web": [
+      "assets/photos/hall-flashings-600.webp",
+      "assets/photos/hall-flashings-1200.webp"
+    ]
+  },
+  "hall_revision_3": {
+    "tool": "Built-in ImageGen",
+    "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-5097cfb5-2534-46b1-9741-f1dcb75c98dd.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is the TARGET industrial hall photo. Image 2 is the EXACT gutter profile the customer selected. Replace ONLY the half-round gutter at the target's upper RIGHT eave with a realistic installed gutter whose cross section matches image 2 precisely. Critical: a DEEP, TALL, generous-volume American ogee gutter, not flattened fascia trim. Use the reference's tall straight rear wall, broad flat bottom, and tall prominent front wall with strong S-shaped/ogee sweep, broad upper face and thick-looking folded top lip formed from thin sheet. Cross-section height should be roughly equal to front-to-back depth, and the front face about 1/2 to 2/3 the height of the large top fascia board at the hall corner, so it reads as a full deep gutter, not a narrow skinny strip. Correct building mounting: gutter mounted in front of fascia just below roof drip edge, back attached against fascia, opening faces upward beneath roof edge, flat base level and projecting outward. The front ogee face must be clearly visible along entire run in this low upward camera view. Near end by hall corner is CLOSED by a correctly shaped deep K-profile end cap, visibly showing full profile height and curved S front silhouette. Anthracite exterior to match hall, natural soft gray metallic highlights. One continuous seamless run, no round clamp bands or seams. Preserve the hall, silver walls, anthracite corner flashing, screws, cloudy sky, camera perspective and all other architectural geometry from image 1 unchanged. Reference image 2 is geometry only: do not copy its brown color, vendor watermark, text, logos or gray studio background. No watermark or words anywhere. Photorealistic installed deep gutter, not a pasted floating sample, not half-round, not shallow decorative molding. Landscape 3:2.",
+    "references": [
+      "assets/photos/originals/hall-flashings.png",
+      "references/american-gutter-user-reference.png"
+    ],
+    "original": "assets/photos/originals/hall-flashings-v3.png",
+    "web": [
+      "assets/photos/hall-flashings-600.webp",
+      "assets/photos/hall-flashings-1200.webp"
+    ]
+  }
+}

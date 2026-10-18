@@ -1,0 +1,14 @@
+{
+  "tool": "Built-in ImageGen",
+  "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-272b409b-6486-4ef9-8ed9-04dfd0f17444.png",
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET (corner of metal industrial hall). Image 2 is the shape reference for the American seamless K-style gutter. Change ONLY the rain gutter along the upper RIGHT eave of image 1: remove the existing half-round semicircular gutter and replace it with a correctly installed dark anthracite AMERICAN SEAMLESS K-STYLE / OGEE rain gutter. Correct section: straight rear wall attached to fascia, broad FLAT bottom, formed FRONT wall with shallow angular ogee/S-like steps and a neat folded box lip, matching image 2. A single continuous seamless run with NO repeating external union bands or section joints. Subtle concealed mounting hangers; a clean fitted end cap at the near left end by the hall corner so the K/ogee outline is visible. Plausible thin sheet-metal thickness, normal roof-gutter proportions, precise contact with existing fascia. Preserve the rest of image 1 exactly: same anthracite vertical corner flashing, upper edge flashings, silver wall panels, screws, architecture, cloudy sky, camera, crop, lighting and textures. The corner flashing remains the main subject; don't change the building. No half-round or round U-channel, no oversized box drain, no text, logos or watermark. Photorealistic architectural component photo, landscape 3:2. Background remains opaque as input.",
+  "references": [
+    "assets/photos/originals/hall-flashings.png",
+    "assets/photos/originals/gutters-v2.png"
+  ],
+  "original": "assets/photos/originals/hall-flashings-v2.png",
+  "web": [
+    "assets/photos/hall-flashings-600.webp",
+    "assets/photos/hall-flashings-1200.webp"
+  ]
+}

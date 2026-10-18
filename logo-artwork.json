@@ -1,0 +1,10 @@
+{
+  "tool": "Built-in ImageGen",
+  "reference": "assets/magimil-card.jpg",
+  "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-039b9699-0afa-4d49-b242-4abdfe980fb1.png",
+  "prompt": "Use case: logo-brand. Faithfully reconstruct the EXISTING original company logo at the TOP LEFT of the attached business card as a clean standalone web logo. Exact same recognizable brand mark: three white stylized roof silhouettes with small white four-pane windows, small white Bulgarian caption ПОКРИВНИ СИСТЕМИ, and large crimson-red Cyrillic wordmark МАГИМИЛ outlined in white below. Keep original house geometry, roof line and stylized typography, not a redesign. Clean smooth solid edges, flat solid fills, no texture, no noise, no distressed spots, no speckles, no halos. Render on a perfectly UNIFORM SOLID DARK GRAPHITE #202124 background, including all negative spaces within roofs and letters. Absolutely NO TRANSPARENCY and NO white patches in dark interior gaps. Only existing white roof lines/roof planes/windows and white text/letter outlines should be white. Remove phone number, machine, marketing text, and red gradient of card. Tightly framed complete standalone rectangular logo plaque with small even dark margin, landscape around 1.9:1 aspect. No mockup, shadows or effects. Clean professional digital logo artwork on flat graphite field.",
+  "png": "assets/magimil-logo.png",
+  "web": "assets/magimil-logo.webp",
+  "note": "Самостоятелен уеб вариант по визитката. Одобреният знак е запазен; фонът е премахнат чрез директна обработка без прерисуване. Активните PNG и WebP са прозрачни.",
+  "transparency": "logo-transparency.json"
+}

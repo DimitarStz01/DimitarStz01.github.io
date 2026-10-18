@@ -1,0 +1,12 @@
+{
+  "tool": "Built-in ImageGen",
+  "key": "rain-hopper",
+  "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-65c573b3-1c13-4d37-8adb-37bf6c91e07d.png",
+  "prompt": "Use case: product-mockup. Input image: physical SHAPE and color reference only. Recreate ONLY THE CENTRAL BROWN RAINWATER HOPPER in the supplied screenshot as a NEW high quality photorealistic product photograph. Ignore all neighboring gray products and phone screenshot UI. The central brown collector has a tall gently tapering body, wide open D-shaped mouth, ONE straight FLAT REAR WALL/chord, and a smoothly curved convex FRONT wall, narrower lower body ending in short circular downpipe outlet. Body height approximately equal to mouth width or slightly taller, not squat. Two narrow shallow horizontal stamped bead lines across the curved front just below its thin upper rim, exactly as reference. Galvanized silver inner surfaces visible inside open top, dark chocolate brown painted exterior with subtle believable satin reflections, thin sheet metal edges, fine folded rear seam. Preserve silhouette, proportions, flat back and curved front of the CENTRAL BROWN object. No full circular bowl, no bucket handle, no faceted rectangular box, no pronounced separate pyramidal funnel, no added enormous back mounting plate. Entire SINGLE object visible on a clean dark gray workshop table with realistic contact shadow, softly blurred restrained workshop background, soft daylight and crisp metal details. Landscape 3:2 composition, close enough to see the two upper pressed beads and D-shaped mouth, comfortable margins, slight elevated three-quarter view similar to reference. Polished authentic catalogue photography, not a white cutout, not an illustration. No text, logos, watermarks, plastic packaging, phone interface, extra objects or other hopper variants.",
+  "reference": "references/rain-hopper-user-reference.png",
+  "original": "assets/photos/originals/rain-hopper-v5.png",
+  "web": [
+    "assets/photos/rain-hopper-600.webp",
+    "assets/photos/rain-hopper-1200.webp"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "tool": "Built-in ImageGen",
+  "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-843c3b94-7d5b-43a2-83f2-1ef8a6b23dda.png",
+  "prompt": "Use case: precise-object-edit. Edit this exact existing hero composition with ONE precise removal: DELETE THE CENTRAL SILVER GALVANIZED L-SHAPED ANGLE FLASHING completely. Keep ONLY the foreground broad flat ANTHRACITE FASCIA SHEET with shallow longitudinal step and the rear ANTHRACITE AMERICAN K-STYLE GUTTER. Preserve these TWO accepted objects' exact geometry, colors, finish, perspective, cut edges and silhouettes. Do NOT invent a replacement object, do NOT redesign the remaining sheet or gutter. Balance the TWO remaining objects into a compact elegant parallel diagonal composition, with a modest gap, full objects inside the frame and comfortable margins. The foreground fascia remains broad and nearly flat with its single shallow edge offset, the rear gutter keeps its straight high back, flat bottom and stepped front lip. Remove all traces and shadows of the silver middle angle. Photorealistic product asset, thin real sheet metal, same soft metallic lighting. Genuine transparent background. No table, white canvas, printed checkerboard, text, lines, dimensions, logos, additional pieces, extra bends or props. Exactly TWO components only.",
+  "reference": "assets/folded-metal-v2.png",
+  "png": "assets/folded-metal-v3.png",
+  "web": "assets/folded-metal-v3.webp"
+}

@@ -1,0 +1,12 @@
+{
+  "tool": "Built-in ImageGen",
+  "key": "rain-hopper",
+  "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-23fe56bb-7b84-4f0e-8afe-b9f39fe05bfc.png",
+  "prompt": "Use case: precise-object-edit. Edit the supplied product photograph with ONE change only: recolor the entire BROWN exterior of the rainwater hopper, including outer rim, two shallow beads and outlet pipe, to MATTE ANTHRACITE CHARCOAL GRAY (neutral RAL 7016-like, no brown, satin fine powder-coat texture). Match the refined dark gray metal used for roofing flashings. Preserve EXACT product geometry and silhouette, D-shaped open top, flat rear wall, rounded front, tall tapering body, two shallow horizontal upper beads, circular outlet, silver galvanized interior. Preserve camera, composition, workbench, background, lighting, contact shadow and all other details unchanged. Material highlights should be subtle realistic soft silver-gray, not glossy plastic or black. No labels, text, logos, watermark, wrapping, additional objects, white backdrop or new details.",
+  "reference": "assets/photos/originals/rain-hopper-v5.png",
+  "original": "assets/photos/originals/rain-hopper-v6.png",
+  "web": [
+    "assets/photos/rain-hopper-600.webp",
+    "assets/photos/rain-hopper-1200.webp"
+  ]
+}

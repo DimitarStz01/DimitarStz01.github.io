@@ -1,0 +1,11 @@
+{
+  "tool": "Built-in ImageGen",
+  "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-432f0aa2-b165-4c96-b90b-f1c8e7732260.png",
+  "prompt": "Use case: precise-object-edit / product-mockup. The supplied screenshot is a PRODUCT PROFILE REFERENCE. Create a NEW premium photorealistic catalogue photograph of the same kind of sheet-metal FENCE LOUVRE SLATS, Bulgarian lameli za ograda. Match the actual reference geometry, not generic flat fence boards: five horizontally stacked brake-folded thin steel blades, each has a broad SLANTED flat face and SHORT RETURN FOLDS / folded hook-like lips along both long edges. The open near left ends clearly expose the shallow folded angular louvre cross section and tiny rounded/hemmed return. The inclined blades overlap in elevation like privacy shutters with consistent gaps, supported by discreet vertical dark metal rails. A compact demonstration panel, slightly seen from its left end so the true bent cross sections and broad inclined faces are clearly legible, similar angle to supplied reference. Matte fine-textured neutral ANTHRACITE gray coated thin sheet, physically plausible millimeter-scale metal thickness, crisp true bends, believable joints. Entire sample panel comfortably within a landscape 3:2 frame on a clean dark gray metalwork bench, softly defocused tidy workshop background, side daylight and restrained realistic highlights. Remove all screenshot UI, vendor names, all lettering, arrows, measurements, annotations, wood base and other products. No white cutout background. No straight rectangular box tube rails pretending to be blades, no wooden planks, no solid extrusion, no generic vertical pickets. Preserve the recognizable reference louvre forms; do not invent a new fancy profile. Professional realistic product photo, not CGI, no text, logo, watermark or people. Illustrative example, not an actual completed company job.",
+  "reference": "references/fence-slats-user-reference.png",
+  "original": "assets/photos/originals/fence-slats-v2.png",
+  "web": [
+    "assets/photos/fence-slats-600.webp",
+    "assets/photos/fence-slats-1200.webp"
+  ]
+}

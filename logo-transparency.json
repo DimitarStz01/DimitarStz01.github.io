@@ -1,0 +1,16 @@
+{
+  "source": "assets/magimil-logo-graphite.png",
+  "result": "assets/magimil-logo-transparent.png",
+  "method": "Direct background color removal from the approved artwork; no generated redraw. Original retained.",
+  "transparent_pixels": 660425,
+  "size": [
+    1449,
+    712
+  ],
+  "crop": [
+    157,
+    93,
+    1606,
+    805
+  ]
+}

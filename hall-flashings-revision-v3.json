@@ -1,0 +1,14 @@
+{
+  "tool": "Built-in ImageGen",
+  "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-5097cfb5-2534-46b1-9741-f1dcb75c98dd.png",
+  "prompt": "Use case: precise-object-edit. Image 1 is the TARGET industrial hall photo. Image 2 is the EXACT gutter profile the customer selected. Replace ONLY the half-round gutter at the target's upper RIGHT eave with a realistic installed gutter whose cross section matches image 2 precisely. Critical: a DEEP, TALL, generous-volume American ogee gutter, not flattened fascia trim. Use the reference's tall straight rear wall, broad flat bottom, and tall prominent front wall with strong S-shaped/ogee sweep, broad upper face and thick-looking folded top lip formed from thin sheet. Cross-section height should be roughly equal to front-to-back depth, and the front face about 1/2 to 2/3 the height of the large top fascia board at the hall corner, so it reads as a full deep gutter, not a narrow skinny strip. Correct building mounting: gutter mounted in front of fascia just below roof drip edge, back attached against fascia, opening faces upward beneath roof edge, flat base level and projecting outward. The front ogee face must be clearly visible along entire run in this low upward camera view. Near end by hall corner is CLOSED by a correctly shaped deep K-profile end cap, visibly showing full profile height and curved S front silhouette. Anthracite exterior to match hall, natural soft gray metallic highlights. One continuous seamless run, no round clamp bands or seams. Preserve the hall, silver walls, anthracite corner flashing, screws, cloudy sky, camera perspective and all other architectural geometry from image 1 unchanged. Reference image 2 is geometry only: do not copy its brown color, vendor watermark, text, logos or gray studio background. No watermark or words anywhere. Photorealistic installed deep gutter, not a pasted floating sample, not half-round, not shallow decorative molding. Landscape 3:2.",
+  "references": [
+    "assets/photos/originals/hall-flashings.png",
+    "references/american-gutter-user-reference.png"
+  ],
+  "original": "assets/photos/originals/hall-flashings-v3.png",
+  "web": [
+    "assets/photos/hall-flashings-600.webp",
+    "assets/photos/hall-flashings-1200.webp"
+  ]
+}

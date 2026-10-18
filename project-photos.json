@@ -1,0 +1,93 @@
+[
+  {
+    "key": "project-roof-overview",
+    "title": "Покрив от шлебах",
+    "alt": "Метален покрив от шлебах и челна обшивка на обект на МАГИМИЛ",
+    "width": 3024,
+    "height": 4032,
+    "original": "assets/photos/originals/project-roof-overview.jpg",
+    "web": [
+      "assets/photos/project-roof-overview-600.webp",
+      "assets/photos/project-roof-overview-1200.webp"
+    ],
+    "provenance": "Реална снимка от обект на МАГИМИЛ, предоставена от собственика на сайта."
+  },
+  {
+    "key": "project-gabled-house",
+    "title": "Шлебах на скатен покрив",
+    "alt": "Скатен метален покрив с улуци на къща в строеж — обект на МАГИМИЛ",
+    "width": 1170,
+    "height": 564,
+    "original": "assets/photos/originals/project-gabled-house.jpg",
+    "web": [
+      "assets/photos/project-gabled-house-600.webp",
+      "assets/photos/project-gabled-house-1200.webp"
+    ],
+    "provenance": "Реална снимка от обект на МАГИМИЛ, предоставена от собственика на сайта."
+  },
+  {
+    "key": "project-roof-renovation",
+    "title": "Обновяване на покрив",
+    "alt": "Предоставен колаж на метален покрив и подготовка на покривна основа от обект на МАГИМИЛ",
+    "width": 1170,
+    "height": 2080,
+    "original": "assets/photos/originals/project-roof-renovation.jpg",
+    "web": [
+      "assets/photos/project-roof-renovation-600.webp",
+      "assets/photos/project-roof-renovation-1200.webp"
+    ],
+    "provenance": "Реална снимка от обект на МАГИМИЛ, предоставена от собственика на сайта."
+  },
+  {
+    "key": "project-metal-facade",
+    "title": "Покрив и метална фасада",
+    "alt": "Метална покривна и фасадна обшивка на сграда в строеж — обект на МАГИМИЛ",
+    "width": 1600,
+    "height": 1200,
+    "original": "assets/photos/originals/project-metal-facade.jpg",
+    "web": [
+      "assets/photos/project-metal-facade-600.webp",
+      "assets/photos/project-metal-facade-1200.webp"
+    ],
+    "provenance": "Реална снимка от обект на МАГИМИЛ, предоставена от собственика на сайта."
+  },
+  {
+    "key": "project-modern-house",
+    "title": "Обшивки по архитектурата",
+    "alt": "Общ изглед на покрив и фасадни обшивки от антрацитна ламарина — обект на МАГИМИЛ",
+    "width": 1600,
+    "height": 1200,
+    "original": "assets/photos/originals/project-modern-house.jpg",
+    "web": [
+      "assets/photos/project-modern-house-600.webp",
+      "assets/photos/project-modern-house-1200.webp"
+    ],
+    "provenance": "Реална снимка от обект на МАГИМИЛ, предоставена от собственика на сайта."
+  },
+  {
+    "key": "project-lakeside-roof",
+    "title": "Шлебах — детайл от обект",
+    "alt": "Изпълнен метален покрив със стоящи фалцове край водоем — обект на МАГИМИЛ",
+    "width": 1200,
+    "height": 1600,
+    "original": "assets/photos/originals/project-lakeside-roof.jpg",
+    "web": [
+      "assets/photos/project-lakeside-roof-600.webp",
+      "assets/photos/project-lakeside-roof-1200.webp"
+    ],
+    "provenance": "Реална снимка от обект на МАГИМИЛ, предоставена от собственика на сайта."
+  },
+  {
+    "key": "project-metal-soffit",
+    "title": "Монтаж на метален хънтър",
+    "alt": "Реален монтаж на метален хънтър под стреха с ъглово съединение и челна обшивка — обект на МАГИМИЛ",
+    "width": 1206,
+    "height": 1748,
+    "original": "assets/photos/originals/project-metal-soffit.jpg",
+    "web": [
+      "assets/photos/project-metal-soffit-600.webp",
+      "assets/photos/project-metal-soffit-1200.webp"
+    ],
+    "provenance": "Реална снимка на метален хънтър, предоставена от клиента за секцията за монтаж."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "revision": 3,
+  "images": [
+    {
+      "key": "rain-hopper",
+      "prompt": "Use case: product-mockup. Create a NEW photorealistic product photograph for a Bulgarian gutter maker website. Landscape 3:2. ONE traditional BULGARIAN GUTTER RAINWATER COLLECTOR, 'oblo kazanche za teglen uluk', of the kind sold for American K-style seamless gutters. Shape is CRITICAL: a STRAIGHT FLAT BACK panel and a gently CONVEX BOWED FRONT panel. It is NOT a round cylinder, NOT a round bowl, NOT a circular cone, and NOT a rectangular angular box. Plan view is a shallow D shape: straight rear edge, two short flat side returns, one broad shallow bowed front, wider than deep. Upper opening follows the SAME shallow D perimeter, with the straight back edge fully visible from the elevated three-quarter FRONT-RIGHT camera angle. Body front has a very gentle convex curve from side to side and tapers slightly inward toward the bottom, with subtle real folded joins at the short flat side returns. Below this flat-backed bowed-front collection chamber is one short ROUND downpipe outlet, centered, approximately 100mm visual scale. The flat rear panel rises modestly behind the open top as a straight mounting flange with two small mounting holes; no huge backplate. A small discreet notch near rear upper side can accommodate an incoming K-style gutter. Overall chamber about 260mm wide, 120mm deep and 240mm high, shallow bowed front radius, NOT semicircular bucket depth. Thin galvanized steel painted matte anthracite, correctly rolled top lip, tiny authentic joints, realistic fine metal texture. On a gray workshop table in soft daylight with shallow background blur, all of the object in frame. Premium but believable technical product photography. Absolutely no text, no branding, no watermark, no copied vendor photo, no handles, no faucet, no decorative flowerpot. It is an independently generated illustrative product, preserving only the functional type and generic geometry researched from Bulgarian catalogues.",
+      "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-b33f590d-c419-4680-8a78-b19122ecfbce.png",
+      "original": "assets/photos/originals/rain-hopper-v3.png",
+      "web": [
+        "assets/photos/rain-hopper-600.webp",
+        "assets/photos/rain-hopper-1200.webp"
+      ],
+      "shape_research": "https://meda-bg.com/bg/golyamo-oblo-kazanche-za-teglen-uluk-6-ot-potsink/p197.html"
+    },
+    {
+      "key": "fascia-flashing",
+      "prompt": "Use case: precise-object-edit / product presentation. Input image is the exact PRODUCT GEOMETRY REFERENCE. Create a new premium photorealistic catalogue photograph of THE SAME thin anthracite sheet-metal fascia board shown on the workbench, with all packaging removed. Preserve the exact distinctive shape visible in the reference: a long wide mostly FLAT rectangular sheet, a broad flat main face occupying roughly 75 percent of the width, then ONE shallow straight longitudinal offset/step close to one long edge, followed by a NARROW FLAT parallel edge band occupying roughly 20 percent. Two subtle straight crease lines form a small low step between main face and narrow band. It is an almost planar brake-folded sheet with a shallow offset, NOT a deep U or C channel, NOT a rectangular box beam, NOT tall vertical sidewalls, NOT a mounted house fascia. Very thin sheet cut edges, straight true folds, no invented extra ribs or tall upstands. Match matte fine-textured charcoal/anthracite gray surface from reference. Present ONE full clean unwrapped finished length on a clean light neutral gray product photography surface, angled diagonally across a landscape 3:2 image, seen from above at about 35 degrees so both the broad face and shallow edge step read clearly. The near cut end and entire shallow cross section are visible; comfortable margins on all sides. Professional soft side lighting creates a controlled narrow highlight along the shallow fold, realistic shadow under thin sheet. Elegant, believable, precise product photography for a sheet-metal manufacturer, not CGI. Remove plastic film, film roll, transparent wrapping, dust, workshop machine, scratched brown table, screenshot black bars, orange dot, tools, text, logos, people and clutter. No protective plastic at all. Do not change product profile to improve aesthetics. The supplied fascia's physical shape must remain recognizable.",
+      "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-3ec3c7d2-62cc-4146-a6dc-388240c480ad.png",
+      "original": "assets/photos/originals/fascia-flashing-v3.png",
+      "web": [
+        "assets/photos/fascia-flashing-600.webp",
+        "assets/photos/fascia-flashing-1200.webp"
+      ],
+      "reference": "references/fascia-user-reference.png"
+    }
+  ]
+}

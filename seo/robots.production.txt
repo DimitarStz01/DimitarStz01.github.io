@@ -1,0 +1,4 @@
+# DRAFT: activate only on the final public domain.
+User-agent: *
+Allow: /
+Sitemap: https://magimil.bg/sitemap.xml

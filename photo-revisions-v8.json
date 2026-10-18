@@ -1,0 +1,23 @@
+{
+  "tool": "Built-in ImageGen",
+  "images": [
+    {
+      "key": "metal-soffit",
+      "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-f512fccc-2617-4a47-b803-3b32415b9f36.png",
+      "prompt": "Use case: photorealistic-natural. Input image is a REAL INSTALLATION GEOMETRY REFERENCE supplied by a Bulgarian sheet-metal installer. Create a NEW photorealistic illustrative close-up of a similar METAL SOFFIT / Bulgarian metalen hantar, matching the actual construction in reference. Preserve recognizable panel system: broad flat thin painted sheet-metal soffit strips, very shallow narrow straight joints, transverse panels below two meeting eaves, neatly framed straight perimeter flashings and clean diagonal corner joining trim, fascia above. NOT narrow ribbed aluminum slats, not timber boards, not corrugated wall sheets. Camera looks up underneath the corner like reference. Smooth matte anthracite gray metal, natural fine finish, physically thin folded edges, precise plausible seam spacing, neutral pale rendered wall at left, small blue sky at right. Clean professional finished installation with natural daylight, realistic scale, credible attachments and geometry. Remove temporary drain tube wrapping, exposed tools, phone borders and clutter. Landscape 3:2 crop, soffit corner and its two panel directions clearly shown and dominant, premium authentic architectural photograph, no showroom CGI. No text, labels, logos, watermark or people. This is a generated example based on the reference, not a photograph of an actual company project.",
+      "reference": "assets/photos/originals/project-metal-soffit.jpg",
+      "original": "assets/photos/originals/metal-soffit-v2.png"
+    },
+    {
+      "key": "hero-real-profiles",
+      "source": "/Users/valentiniordanov/.codex/generated_images/01a1500d-eac8-7461-a52d-f021cc298a91/exec-1811da14-f313-4093-bec6-c9063dc74096.png",
+      "prompt": "Use case: product-mockup. Create a photorealistic isolated hero asset for a custom roofing sheet-metal fabrication company. Reference image 1 defines EXACT shape of a fascia blank: broad almost-flat thin anthracite rectangular sheet with just one shallow longitudinal step near one edge and a narrow flat outer band. Reference 2 defines correct American K-style seamless gutter section with straight back, flat bottom, shaped stepped front and folded lip. Show THREE discrete actual fabricated sheet-metal components: this broad shallow-step fascia blank in the foreground, ONE simple galvanized silver L-shaped roof corner flashing with short folded drip hem behind it, and a SHORT American K-style anthracite gutter length at the rear. Make them authentic THIN roofing sheet metal about 0.5mm, not extruded solid metal, not heavy structural beams, not giant fantasy Z sections, no additional impossible bends. Parts arranged in a compact premium three-quarter product composition, parallel diagonal axes, near cut ends visible separately to expose real thin cross sections. Entire objects visible with comfortable margin, no intersecting geometry, no merged parts. Restrained neutral metal tones, soft bright edge highlights and detailed believable finish. Elegant editorial product photograph, crisp natural material details, no cartoon, no exaggerated chrome. Completely transparent background, no workshop, no table, no white canvas, no backdrop, no text, dimensions, logos or watermark. Preserve simple functional geometry of the supplied references, not their backgrounds. Wide landscape 3:2 composition.",
+      "references": [
+        "assets/photos/originals/fascia-flashing-v4.png",
+        "assets/photos/originals/gutters-v2.png"
+      ],
+      "original": "assets/folded-metal-v2.png",
+      "web": "assets/folded-metal-v2.webp"
+    }
+  ]
+}
