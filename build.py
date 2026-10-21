@@ -8,9 +8,14 @@ import shutil
 
 ROOT = Path(__file__).resolve().parent
 BASE = 'https://magimil.bg'
-PRODUCTION = False
+PRODUCTION = True
+# Update only when public content changes, not on every build.
+LASTMOD = '2026-10-21'
+# Add only verified profiles belonging to МАГИМИЛ, not the hosting account.
+SOCIAL_PROFILES = []
 PHONE = '0894 336 030'
 CITIES = ['Стара Загора', 'Хасково', 'Харманли', 'Пловдив', 'Казанлък', 'Нова Загора', 'Свиленград']
+SERVICE_CONTENT = json.loads((ROOT/'seo/service-content.json').read_text(encoding='utf-8'))
 
 ICONS = {
  'phone': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m8 3 3 5-3 3c1.2 2.7 2.9 4.4 5.5 5.5l3-3 4.5 3c0 3-1.6 5-4 4C9 18 5 14 3 6 2.5 3.5 5 2 8 3Z"/></svg>',
@@ -38,44 +43,44 @@ SERVICES = [
   'sections': [('Детайлът започва с вашия размер','При покривните обшивки и довършителните елементи формата е свързана с конкретния обект. В МАГИМИЛ изработваме детайли по подадени размери и чертеж. Преди производството уточняваме сечението, дължините, количеството и избрания материал.'),('Какви заготовки изработваме',['Покривни обшивки и челни дъски от ламарина.','Огънати детайли за халета и метални конструкции.','Заготовки по нестандартно сечение и скица.','Детайли за водоотвеждане — улуци, водосточни тръби, кривки и казанчета.']),('Какво да изпратите за запитване','Приложете чертеж или четлива скица, размерите на всяка страна, дължина и брой детайли. Ако знаете материала, дебелината и цвета, посочете ги. За уточняване на подходящата изработка изпратете и снимка на мястото за монтаж. Възможността за конкретен материал и размер се потвърждава при запитването.')]
  },
  {'slug':'ogavane-na-lamarina-abkant','name':'Огъване на ламарина на абкант','kind':'flash','category':'industrial','tag':'Абкант 8 метра','short':'Огъване на дълги детайли с електронен абкант на осем метра.',
-  'title':'Огъване на ламарина на абкант 8 метра | МАГИМИЛ',
+  'title':'Огъване на ламарина на абкант 8 метра по размер | МАГИМИЛ',
   'description':'Огъване на ламарина с електронен абкант 8 метра. Заготовки по чертеж от МАГИМИЛ за Стара Загора, Хасково, Пловдив и региона. Запитвания по Viber.',
   'lead':'Разполагаме с електронен абкант на осем метра за огъване на ламаринени детайли. Уточняваме всяко сечение по вашата скица и изискванията на обекта.',
   'sections':[('Осемметров абкант за вашите детайли','Оборудването ни включва абкант с работна дължина осем метра и цепачка за ламарина. Използваме ги при подготовката и огъването на заготовки за покриви, фасадни и довършителни елементи и детайли за халета.'),('За какви поръчки е подходящо',['Обшивки и челни дъски за покриви.','Ламаринени детайли за халета.','Огъване по чертеж и нестандартно сечение.','Ламели за огради и метален хънтър.']),('Материалът и сечението се уточняват предварително','Дължината на машината сама по себе си не определя всички възможни детайли. За да потвърдим изработката, изпратете дължина, сечение, количество и, ако са избрани, материал и дебелина. Конкретните допустими размери и срокът се уточняват за всяка поръчка.')]
  },
  {'slug':'bezshevni-uluci','name':'Безшевни улуци','kind':'gutter','category':'roof','tag':'Изтегляне на място','short':'Улуци 5 и 6 инча, изтеглени на място според вашия обект.',
-  'title':'Безшевни улуци 5 и 6 инча на място | МАГИМИЛ',
+  'title':'Безшевни улуци 5 и 6 инча на място и монтаж | МАГИМИЛ',
   'description':'Американски безшевни улуци 5 и 6 инча — изтегляне на място и монтаж от МАГИМИЛ. Стара Загора, Хасково, Пловдив и региона. Запитвания по Viber.',
   'lead':'Изтегляме безшевни улуци на място с машина за улуци на 5 и 6 инча. Предлагаме също монтаж и детайли за водоотвеждането на вашия покрив.',
   'sections':[('Улуци според дължината на обекта','При изтегляне на място улукът се подготвя според уточнените дължини за конкретния покрив. Преди работа обсъждаме размерите, достъпа до обекта и необходимите допълнителни елементи.'),('Изработка и монтаж',['Изтегляне на улуци на място — 5 и 6 инча.','Монтаж на улуци.','Водосточни тръби и кривки.','Казанчета за улуци и свързващи детайли.']),('Подгответе информация за покрива','Изпратете снимки на стрехите и фасадата, приблизителните дължини и населеното място. Ако вече има водосточни тръби, посочете къде са разположени. Конкретният размер на системата и организацията на монтажа се уточняват за обекта.')]
  },
  {'slug':'shlebah','name':'Шлебах','kind':'seam','category':'roof','tag':'Изработка и монтаж','short':'Подготовка на шлебах с машина и монтаж на покривни елементи.',
-  'title':'Шлебах — изработка и монтаж за покриви | МАГИМИЛ',
+  'title':'Шлебах — изработка и монтаж за метални покриви | МАГИМИЛ',
   'description':'Шлебах — изработка и монтаж на метални покривни елементи със стоящ фалц от МАГИМИЛ. Стара Загора, Хасково, Пловдив и региона. Запитвания по Viber.',
   'lead':'Разполагаме с машина за шлебах и предлагаме изработка и монтаж. Подготвяме поръчката според размерите и детайлите на конкретния покрив.',
   'sections':[('Подготовка за конкретния покрив','За изработката на шлебах са важни геометрията на покрива, дължините и връзките с останалите елементи. Изпратете план, скица или снимки, за да уточним какво е необходимо за вашия обект.'),('Свързани услуги',['Изработка на шлебах с машина.','Монтаж на шлебах.','Покривни обшивки по размер.','Челни дъски, улуци и водосточни елементи.']),('Преди производството','Уточняваме размерите, материала, количеството и начина на изпълнение. Наличните цветове, допустимите размери и срокът се потвърждават при запитване; не публикуваме технически стойности без потвърждение.')]
  },
  {'slug':'metalen-hantar','name':'Метален хънтър','kind':'hunter','category':'roof','tag':'Огъване и монтаж','short':'Огъване на метален хънтър и челни детайли за завършен покрив.',
-  'title':'Метален хънтър — огъване и монтаж | МАГИМИЛ',
+  'title':'Метален хънтър — огъване по размер и монтаж | МАГИМИЛ',
   'description':'Метален хънтър — огъване и монтаж от МАГИМИЛ. Челни дъски и ламаринени обшивки за Стара Загора, Хасково, Пловдив и региона. Запитвания по Viber.',
   'lead':'Огъваме метален хънтър и предлагаме монтаж. Изработваме и свързаните ламаринени обшивки и челни детайли според нуждите на покрива.',
   'sections':[('Изработка по размер','При довършителните елементи размерите и връзките с покрива се уточняват предварително. Подготвяме металния хънтър по конкретно запитване, като обсъждаме сечението, дължините и количеството.'),('Какво можем да обсъдим заедно',['Огъване на метален хънтър.','Монтаж на метален хънтър.','Огъване на челна дъска.','Обшивки и детайли около улука.']),('Какво е необходимо за запитване','Изпратете снимки на мястото, размери или чертеж и приблизително количество. Уточнете дали търсите само заготовки, или изработка с монтаж, и в кое населено място е обектът.')]
  },
  {'slug':'lameli-za-ograda','name':'Ламели за ограда','kind':'slat','category':'industrial','tag':'Огъване от ламарина','short':'Ламаринени ламели за ограда, огънати по зададеното сечение.',
-  'title':'Ламели за ограда от ламарина по размер | МАГИМИЛ',
-  'description':'Ламели за ограда от ламарина по размер и сечение от МАГИМИЛ. За майстори, фирми и собственици в Стара Загора, Хасково, Пловдив и региона.',
+  'title':'Ламели за ограда от ламарина по ваш размер | МАГИМИЛ',
+  'description':'Ламели за ограда от ламарина по размер и сечение от МАГИМИЛ. За обекти в Стара Загора, Хасково, Пловдив и региона. Изпратете скица и поискайте оферта.',
   'lead':'Огъваме ламели за ограда от ламарина по зададено сечение. Услугата е за майстори, строителни фирми и собственици, които подготвят своята ограда.',
   'sections':[('Ламелите следват вашия проект','При запитването уточняваме сечението на ламела, дължината на отделните елементи и общото количество. Ако имате мостра или скица, изпратете я по Viber заедно с основните размери.'),('Каква информация да подготвите',['Чертеж или скица на сечението.','Дължина и брой ламели.','Материал, дебелина и цвят, ако вече са избрани.','Населено място и желания срок.']),('Изработка на заготовки','Тази услуга е за огъване на ламели. Доставката, възможността за конкретен материал и организацията на получаване се уточняват отделно. За работата по самата ограда обсъдете с вашия изпълнител необходимите размери и бройки.')]
  },
  {'slug':'vodostochni-trabi-i-detayli','name':'Водосточни тръби и детайли','kind':'pipe','category':'roof','tag':'За водоотвеждането','short':'Водосточни тръби, кривки и казанчета за улуци.',
   'title':'Водосточни тръби, кривки и казанчета за улуци | МАГИМИЛ',
-  'description':'Водосточни тръби, кривки и казанчета за улуци от МАГИМИЛ. Стара Загора, Хасково, Пловдив и региона. Запитвания с размери и снимки по Viber.',
+  'description':'Водосточни тръби, кривки и казанчета за улуци от МАГИМИЛ. Стара Загора, Хасково, Пловдив и региона. Изпратете размери и снимки по Viber за оферта.',
   'lead':'Предлагаме водосточни тръби, кривки и казанчета за улуци, както и ламаринени детайли за водоотвеждането. Уточняваме необходимите елементи според вашия обект.',
   'sections':[('Елементите на водоотвеждането','Улукът, тръбите, кривките и казанчетата трябва да се съобразят с конкретния покрив и фасада. За запитване изпратете снимки, размери и броя на необходимите детайли.'),('Какво предлагаме',['Водосточни тръби.','Кривки за водосточни тръби.','Казанчета за улуци.','Изтегляне на улуци на място и монтаж.']),('Съобразяване с наличната система','Ако допълвате съществуващо водоотвеждане, посочете размерите на наличните улуци и тръби и приложете снимки на връзките. Размерите, материалът и цветът се потвърждават преди поръчка.')]
  },
  {'slug':'montazh','name':'Монтаж на покривни елементи','kind':'seam','category':'roof','tag':'За вашия обект','short':'Монтаж на улуци, обшивки, метален хънтър и шлебах.',
   'title':'Монтаж на улуци, обшивки, хънтър и шлебах | МАГИМИЛ',
-  'description':'МАГИМИЛ предлага монтаж на улуци, обшивки, метален хънтър и шлебах в района на Стара Загора, Хасково, Харманли, Пловдив и съседните населени места.',
+  'description':'Монтаж на улуци, обшивки, метален хънтър и шлебах от МАГИМИЛ в Стара Загора, Хасково, Харманли, Пловдив и региона. Изпратете снимки за запитване.',
   'lead':'Освен заготовки, предлагаме монтаж на улуци, обшивки от ламарина, метален хънтър и шлебах. Работим със собственици и строителни фирми в обслужвания от нас район.',
   'sections':[('Изработка и изпълнение на обекта','Можете да се обърнете към нас както за отделни ламаринени детайли, така и за монтаж на покривни елементи. При разговора уточнете дали искате само заготовки, монтаж, или и двете.'),('Монтажни услуги',['Монтаж на улуци и водосточни елементи.','Монтаж на обшивки от ламарина.','Монтаж на метален хънтър.','Монтаж на шлебах.']),('Къде работим','Обслужваме района на Стара Загора, Хасково, Харманли, Пловдив, Казанлък, Нова Загора и Свиленград, както и близките населени места. За конкретен адрес и организация на работа се свържете с нас по телефона или Viber.'),('Как да започнем','Изпратете снимки на покрива, ориентировъчни размери, населено място и кратко описание на работата. След уточняване на информацията обсъждаме нужните детайли, организацията и следващите стъпки.')]
  }
@@ -85,22 +90,34 @@ def enquiry(label='Изпратете чертеж по Viber', subject='', cls=
     return f'<button class="{cls}" type="button" data-enquiry="{escape(subject,quote=True)}">{ICONS["chat"]}{label}</button>'
 
 def head(title, description, prefix='', slug=''):
+    if not slug:
+        description='Заготовки от ламарина по размер, огъване на абкант 8 м, безшевни улуци и монтаж от МАГИМИЛ. Стара Загора, Хасково и Пловдив. Изпратете скица за оферта.'
+    description=description.replace('Запитвания по Viber.', 'Изпратете скица по Viber.')
     canonical=BASE+'/'+(slug+'/' if slug else '')
     image_key=SERVICE_PHOTOS[slug][0] if slug else 'project-lakeside-roof'
     image_url=f'{BASE}/assets/photos/{image_key}-1200.webp'
-    robots='index,follow,max-image-preview:large' if PRODUCTION else 'noindex,follow'
+    robots='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' if PRODUCTION else 'noindex,follow'
     graph = [
       {'@type':'Organization','@id':BASE+'/#organization','name':'МАГИМИЛ','alternateName':'MAGIMIL','url':BASE+'/','logo':BASE+'/assets/magimil-logo.png','telephone':'+359894336030','areaServed':[{'@type':'City','name':city} for city in CITIES]},
       {'@type':'WebSite','@id':BASE+'/#website','name':'МАГИМИЛ','url':BASE+'/','inLanguage':'bg','publisher':{'@id':BASE+'/#organization'}}
     ]
     if slug:
       item=next(s for s in SERVICES if s['slug']==slug)
-      graph += [{'@type':'Service','name':item['name'],'description':description,'url':f'{BASE}/{slug}/','provider':{'@id':BASE+'/#organization'},'areaServed':[{'@type':'City','name':c} for c in CITIES]}, {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Начало','item':BASE+'/'},{'@type':'ListItem','position':2,'name':item['name'],'item':f'{BASE}/{slug}/'}]}]
+      graph += [{'@type':'Service','name':item['name'],'alternateName':SERVICE_CONTENT[slug]['aliases'],'description':description,'url':f'{BASE}/{slug}/','provider':{'@id':BASE+'/#organization'},'areaServed':[{'@type':'City','name':c} for c in CITIES]}, {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Начало','item':BASE+'/'},{'@type':'ListItem','position':2,'name':item['name'],'item':f'{BASE}/{slug}/'}]}]
     graph.append({'@type':'WebPage','@id':canonical+'#webpage','url':canonical,'name':title,'description':description,'inLanguage':'bg','isPartOf':{'@id':BASE+'/#website'},'about':{'@id':BASE+'/#organization'},'primaryImageOfPage':{'@type':'ImageObject','url':image_url}})
+    graph[0].update(description='Заготовки от ламарина по размер, огъване на абкант, безшевни улуци и монтаж от МАГИМИЛ.', image=BASE+'/assets/photos/project-lakeside-roof-1200.webp')
+    graph[1].update(description=graph[0]['description'], image=graph[0]['image'])
+    if SOCIAL_PROFILES:
+        graph[0]['sameAs']=SOCIAL_PROFILES
     schema=json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False)
     canonical=BASE+'/'+(slug+'/' if slug else '')
-    return f'''<!doctype html>
+    markup=f'''<!doctype html>
 <html lang="bg" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="{robots}"><meta name="theme-color" content="#202124"><title>{escape(title)}</title><meta name="description" content="{escape(description,quote=True)}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="website"><meta property="og:locale" content="bg_BG"><meta property="og:site_name" content="МАГИМИЛ"><meta property="og:title" content="{escape(title,quote=True)}"><meta property="og:description" content="{escape(description,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{image_url}"><meta property="og:image:alt" content="{escape(PHOTOS[image_key][1],quote=True)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{escape(title,quote=True)}"><meta name="twitter:description" content="{escape(description,quote=True)}"><meta name="twitter:image" content="{image_url}"><link rel="icon" type="image/svg+xml" href="{prefix}assets/favicon.svg"><link rel="preload" href="{prefix}assets/Oswald.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="{prefix}assets/site.css?v=10"><script type="application/ld+json">{schema}</script><script defer src="{prefix}assets/site.js?v=13"></script></head><body>'''
+
+    icons=''.join(f'<link rel="icon" type="image/png" sizes="{size}x{size}" href="{prefix}assets/favicon-{size}.png">' for size in (16,32))
+    icons+=f'<link rel="apple-touch-icon" sizes="180x180" href="{prefix}assets/apple-touch-icon.png">'
+    markup=markup.replace('</head>',icons+'</head>').replace('charset="utf-8"','charset="UTF-8"').replace('initial-scale=1"','initial-scale=1.0"')
+    return markup.replace('><','>\n<')
 
 def header(prefix=''):
     home=prefix+'index.html'
@@ -200,41 +217,49 @@ def home():
 
 def detail(item):
     p='../'
+    service_content=SERVICE_CONTENT[item['slug']]
     html=head(item['title'],item['description'],p,item['slug'])+header(p)
     html+=f'''<main id="main"><div class="wrap breadcrumb"><a href="../index.html">Начало</a><span>/</span><a href="../index.html#zagotovki">Услуги</a><span>/</span>{item['name']}</div><section class="detail-hero"><div class="wrap detail-grid"><div><span class="section-kicker">{item['tag']}</span><h1>{item['name']}</h1><p class="detail-lead">{item['lead']}</p><div class="actions">{enquiry('Запитване по Viber',item['name'])}<a class="text-link" href="tel:+359894336030">{PHONE}</a></div></div>{photo_figure(SERVICE_PHOTOS[item['slug']][0],p,cls='detail-feature',eager=True)}</div></section><section class="detail-content"><div class="wrap detail-content-grid"><article class="article">'''
     for heading,content in item['sections']:
         html+=f'<h2>{heading}</h2>'
         html+=('<ul>'+''.join(f'<li>{text}</li>' for text in content)+'</ul>') if isinstance(content,list) else f'<p>{content}</p>'
+    html+=f'<h2>{escape(service_content["heading"])}</h2><p>{escape(service_content["text"])}</p>'
+    html+='<section aria-labelledby="service-questions"><h2 id="service-questions">Въпроси за '+escape(item['name'].lower())+'</h2>'
+    html+=''.join(f'<h3>{escape(question)}</h3><p>{escape(answer)}</p>' for question,answer in service_content['faq'])
+    html+='</section>'
     html+=service_gallery(item)
     html+='<h2>Район на работа</h2><p>Обслужваме Стара Загора, Хасково, Харманли, Пловдив, Казанлък, Нова Загора, Свиленград и близките населени места. Посочете местоположението на вашия обект при запитване.</p><h2>Свързани услуги</h2><div class="related-links">'
-    related=[s for s in SERVICES if s['slug']!=item['slug']][:4]
+    related=[next(s for s in SERVICES if s['slug']==slug) for slug in service_content['related']]
     html+=''.join(f'<a href="../{s["slug"]}/index.html">{s["name"]}</a>' for s in related)
     html+=f'''</div></article><aside class="detail-aside"><h2>Вашият детайл<br>започва оттук.</h2><p>Подгответе размери, количество и скица. Материалът и срокът ще уточним заедно.</p>{enquiry('Подгответе запитване',item['name'])}<a class="aside-phone" href="tel:+359894336030">{PHONE}</a></aside></div></section>{contact()}</main>'''
     return html+footer(p)
 
 def clean_links(html):
     # Link to the same directory URLs used by canonical tags and the sitemap.
+    html=re.sub(r'(<img\b[^>]*loading="eager")', r'\1 fetchpriority="high"', html)
     return re.sub(r'href="([^"?#]*)index\.html([#?][^"]*)?"', lambda m: 'href="'+(m[1] or './')+(m[2] or '')+'"', html)
 
 def main():
     global PRODUCTION
     parser=argparse.ArgumentParser(description='Build the MAGIMIL website locally or prepare a publication folder.')
-    parser.add_argument('--production',action='store_true')
+    mode=parser.add_mutually_exclusive_group()
+    mode.add_argument('--production',action='store_true',help='Build indexable public pages (default).')
+    mode.add_argument('--preview',action='store_true',help='Build a separate noindex preview.')
     parser.add_argument('--output',type=Path)
     args=parser.parse_args()
-    PRODUCTION=args.production
-    if PRODUCTION and not args.output:
-        parser.error('--production requires --output to preserve the local noindex preview')
+    PRODUCTION=not args.preview
+    if args.preview and not args.output:
+        parser.error('--preview requires a separate --output folder')
     output=args.output.resolve() if args.output else ROOT
-    if PRODUCTION and output==ROOT:
-        parser.error('Use a separate production output folder')
+    if args.preview and output==ROOT:
+        parser.error('Use a separate preview output folder')
     output.mkdir(parents=True,exist_ok=True)
     (output/'index.html').write_text(clean_links(home()),encoding='utf-8')
     for item in SERVICES:
         directory=output/item['slug'];directory.mkdir(exist_ok=True)
         (directory/'index.html').write_text(clean_links(detail(item)),encoding='utf-8')
     urls=[BASE+'/']+[BASE+'/'+item['slug']+'/' for item in SERVICES]
-    sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('  <url><loc>'+url+'</loc></url>\n' for url in urls)+'</urlset>\n'
+    sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{url}</loc><lastmod>{LASTMOD}</lastmod><priority>{"1.0" if url==BASE+"/" else "0.8"}</priority></url>\n' for url in urls)+'</urlset>\n'
     (output/'sitemap.xml').write_text(sitemap,encoding='utf-8')
     robots='User-agent: *\nAllow: /\n'+('Sitemap: '+BASE+'/sitemap.xml\n' if PRODUCTION else '# Local preview: HTML pages use noindex,follow.\n')
     (output/'robots.txt').write_text(robots,encoding='utf-8')

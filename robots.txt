@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-# Local preview: HTML pages use noindex,follow.
+Sitemap: https://magimil.bg/sitemap.xml

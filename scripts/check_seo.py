@@ -30,9 +30,15 @@ def audit(root,production):
   canonical=page.attrs('link',rel='canonical');value=canonical[0].get('href','') if canonical else '';canonicals.append(value)
   check(len(canonical)==1 and value.startswith('https://magimil.bg/') and value.endswith('/'),name+': canonical')
   robots=page.attrs('meta',name='robots');check(len(robots)==1 and ('noindex' not in robots[0]['content'] if production else 'noindex' in robots[0]['content']),name+': robots')
-  for key in ['og:title','og:description','og:url','og:image']:
+  for key in ['og:type','og:locale','og:title','og:description','og:url','og:image']:
    check(bool(page.attrs('meta',property=key)),name+': '+key)
   check(page.attrs('meta',property='og:url')[0]['content']==value,name+': OG canonical mismatch')
+  for key in ['twitter:card','twitter:title','twitter:description','twitter:image']:
+   check(bool(page.attrs('meta',name=key)),name+': '+key)
+  check(bool(page.attrs('link',rel='apple-touch-icon')),name+': apple touch icon')
+  headings=[int(t[1]) for t,a in page.nodes if re.fullmatch(r'h[1-6]',t)]
+  check(all(b<=a+1 for a,b in zip(headings,headings[1:])),name+': skipped heading level')
+  check(any(a.get('fetchpriority')=='high' and a.get('loading')!='lazy' for t,a in page.nodes if t=='img'),name+': priority image')
   for script in page.scripts:
    if script.startswith('{'):
     try:graph=json.loads(script);check(bool(graph.get('@graph')),name+': schema graph')
@@ -57,6 +63,11 @@ def audit(root,production):
  check(len(set(titles))==len(files) and all(titles),'Unique page titles')
  check(len(set(descriptions))==len(files),'Unique descriptions')
  sitemap=ET.parse(root/'sitemap.xml');urls=[n.text for n in sitemap.findall('.//{*}loc')];check(set(urls)==set(canonicals),'Sitemap/canonical match')
+ for node in sitemap.findall('{*}url'):
+  check(bool(re.fullmatch(r'\d{4}-\d{2}-\d{2}',node.findtext('{*}lastmod',''))),'Sitemap lastmod')
+  check(node.findtext('{*}priority') in ['1.0','0.8'],'Sitemap priority')
+ if production:
+  check('Sitemap: https://magimil.bg/sitemap.xml' in (root/'robots.txt').read_text(),'Robots sitemap')
  montage=pages[(root/'montazh/index.html').resolve()];gallery=[a['data-photo-title'] for tag,a in montage.nodes if 'data-photo-title' in a];check(gallery[-1]=='Монтаж на метален хънтър','Metal soffit photo must be last')
  return {'mode':'production' if production else 'local','pages':len(files),'localResourceChecks':links,'sitemapUrls':len(urls),'titles':titles,'passed':not errors,'errors':errors}
 if __name__=='__main__':
