@@ -1,0 +1,28 @@
+.base-location{padding:72px 0;background:var(--bg);border-top:1px solid var(--line)}
+.base-location-grid{display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;gap:64px}
+.base-location-copy h2{font-size:clamp(38px,4vw,58px);margin-bottom:26px}
+.base-location-copy address{font-style:normal;font-size:16px;color:var(--muted);line-height:1.8}
+.base-location-copy address strong{color:var(--ink);font-size:20px;font-weight:600}
+.base-location-copy p{max-width:320px;font-size:13px;color:var(--muted);margin:18px 0 24px}
+.base-map-card{position:relative;min-width:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.base-map{height:320px;background:#e8ebeb;color:#263136;isolation:isolate;font-family:Manrope,sans-serif}
+.base-map-status{position:absolute;left:16px;bottom:24px;z-index:1000;margin:0;padding:16px;font-size:12px;max-width:calc(100% - 32px);background:#fffffff2;border-radius:3px}
+.base-map{position:relative}
+.base-map-caption{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;background:var(--surface);font-size:11px}
+.base-map-caption i{display:inline-block;width:7px;height:7px;background:var(--soft);border-radius:50%;margin-right:6px}
+.base-map-caption a{white-space:nowrap;color:var(--muted)}
+.base-map-caption a:hover{color:var(--ink)}
+.base-map .leaflet-control-attribution{font-size:11px;line-height:1.5;padding:2px 7px;background:#292b2ef2;color:#f4f5f5;border-radius:4px 0 0 0}
+.base-map .leaflet-control-attribution a{color:#f4f5f5}
+.base-map .leaflet-control-zoom a{color:#263136;background:#fff}
+.base-map .leaflet-tooltip{font-family:Manrope,sans-serif;font-size:11px;font-weight:700;color:#263136;padding:7px 11px}
+.base-map-pin{background:transparent;border:0}
+.base-map-pin svg{width:40px;height:40px;filter:drop-shadow(0 3px 3px #0004)}
+@media(max-width:850px){.base-location-grid{gap:32px;grid-template-columns:1fr 1.15fr}.base-map{height:300px}}
+@media(max-width:600px){.base-location{padding:48px 0}.base-location-grid{grid-template-columns:1fr;gap:28px}.base-location-copy h2{font-size:42px;margin-bottom:22px}.base-location-copy p{max-width:350px}.base-map{height:270px}.base-map-caption{padding:14px 12px;font-size:10px;gap:8px}}
+
+/* Keep the navigation button over the map. */
+.base-map-caption{padding:0;background:transparent}
+.base-map-caption a{position:absolute;right:18px;bottom:18px;z-index:1001;display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:28px;background:#fff;color:#263136;border:1px solid #26313620;box-shadow:0 3px 14px #0002;font-size:12px;font-weight:600}
+.base-map-caption a:hover{color:#263136;background:#f4f5f5}
+@media(max-width:600px){.base-map-caption{padding:0}.base-map-caption a{right:14px;bottom:14px;padding:10px 16px}}
