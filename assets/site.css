@@ -39,3 +39,13 @@ html{scroll-padding-top:100px}
 .detail-aside{top:100px}
 @media(max-width:850px){.site-header .header-inner{height:68px;gap:16px}.site-header .brand-logo{width:112px;height:56px}.main-nav{max-height:calc(100dvh - 68px)}html{scroll-padding-top:88px}}
 @media(max-width:600px){.site-header .header-inner{height:60px;gap:10px}.site-header .brand-logo{width:96px;height:50px}.main-nav{max-height:calc(100dvh - 140px)}html{scroll-padding-top:80px}}
+
+/* Always visible beside the phone and menu, including on mobile. */
+.header-location{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 12px;border:1px solid var(--line);border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0}
+.header-location svg{width:20px;height:20px;color:var(--soft);flex-shrink:0}
+.header-location:hover{background:var(--surface);border-color:var(--soft)}
+.header-phone{white-space:nowrap}
+@media(min-width:851px) and (max-width:1350px){.site-header .brand-caption{display:none}.site-header .header-inner{gap:18px}.main-nav{gap:16px;font-size:12px}.header-phone{font-size:13px}.header-location span{display:none}.header-location{width:44px;padding:0}}
+@media(max-width:850px){.header-location{width:44px;height:44px;padding:0}.header-location span{display:none}}
+@media(max-width:600px){.header-location{width:40px;height:40px;min-height:40px}.site-header .header-inner{gap:8px}.site-header .header-inner{width:calc(100% - 24px)}.header-phone{font-size:11px;gap:5px}}
+@media(max-width:360px){.site-header .brand-logo{width:80px}.site-header .header-inner{gap:6px}.header-phone svg{display:none}}
