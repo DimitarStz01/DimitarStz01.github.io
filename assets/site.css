@@ -49,3 +49,6 @@ html{scroll-padding-top:100px}
 @media(max-width:850px){.header-location{width:44px;height:44px;padding:0}.header-location span{display:none}}
 @media(max-width:600px){.header-location{width:40px;height:40px;min-height:40px}.site-header .header-inner{gap:8px}.site-header .header-inner{width:calc(100% - 24px)}.header-phone{font-size:11px;gap:5px}}
 @media(max-width:360px){.site-header .brand-logo{width:80px}.site-header .header-inner{gap:6px}.header-phone svg{display:none}}
+
+/* Keep the service name as the link text while the whole card stays clickable. */
+.product-with-photo{position:relative}.product-link:after{content:"";position:absolute;inset:0}.product-with-photo:focus-within{outline:3px solid var(--soft);outline-offset:5px}
