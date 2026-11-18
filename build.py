@@ -101,10 +101,16 @@ def head(title, description, prefix='', slug=''):
     canonical=BASE+'/'+(slug+'/' if slug else '')
     image_key=SERVICE_PHOTOS[slug][0] if slug else 'project-lakeside-roof'
     image_url=f'{BASE}/assets/photos/{image_key}-1200.webp'
+    image_alt=escape(PHOTOS[image_key][1],quote=True)
+    share_image=image_url if slug else BASE+'/assets/magimil-social.jpg'
+    share_image_details='' if slug else '''
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">'''
     robots='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' if PRODUCTION else 'noindex,follow'
     graph = [
-      {'@type':'Organization','@id':BASE+'/#organization','name':'МАГИМИЛ','alternateName':'MAGIMIL','url':BASE+'/','logo':BASE+'/assets/magimil-logo.png','telephone':'+359894336030','areaServed':[{'@type':'City','name':city} for city in CITIES]},
-      {'@type':'WebSite','@id':BASE+'/#website','name':'МАГИМИЛ','url':BASE+'/','inLanguage':'bg','publisher':{'@id':BASE+'/#organization'}}
+      {'@type':'Organization','@id':BASE+'/#organization','name':'МАГИМИЛ','alternateName':'MAGIMIL','url':BASE+'/','logo':{'@type':'ImageObject','url':BASE+'/assets/magimil-logo-square.png','width':512,'height':512},'telephone':'+359894336030','areaServed':[{'@type':'City','name':city} for city in CITIES]},
+      {'@type':'WebSite','@id':BASE+'/#website','name':'МАГИМИЛ','alternateName':'MAGIMIL','url':BASE+'/','inLanguage':'bg','publisher':{'@id':BASE+'/#organization'}}
     ]
     if slug:
       item=next(s for s in SERVICES if s['slug']==slug)
@@ -117,13 +123,15 @@ def head(title, description, prefix='', slug=''):
     if SOCIAL_PROFILES:
         graph[0]['sameAs']=SOCIAL_PROFILES
     schema=json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False)
-    canonical=BASE+'/'+(slug+'/' if slug else '')
     markup=f'''<!doctype html>
-<html lang="bg" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="{robots}"><meta name="theme-color" content="#202124"><title>{escape(title)}</title><meta name="description" content="{escape(description,quote=True)}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="website"><meta property="og:locale" content="bg_BG"><meta property="og:site_name" content="МАГИМИЛ"><meta property="og:title" content="{escape(title,quote=True)}"><meta property="og:description" content="{escape(description,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{image_url}"><meta property="og:image:alt" content="{escape(PHOTOS[image_key][1],quote=True)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{escape(title,quote=True)}"><meta name="twitter:description" content="{escape(description,quote=True)}"><meta name="twitter:image" content="{image_url}"><link rel="icon" type="image/svg+xml" href="{prefix}assets/favicon.svg"><link rel="preload" href="{prefix}assets/Oswald.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="{prefix}assets/site.css?v=14"><script type="application/ld+json">{schema}</script><script defer src="{prefix}assets/site.js?v=13"></script></head><body>'''
+<html lang="bg" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="{robots}"><meta name="theme-color" content="#202124"><title>{escape(title)}</title><meta name="description" content="{escape(description,quote=True)}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="website"><meta property="og:locale" content="bg_BG"><meta property="og:site_name" content="МАГИМИЛ"><meta property="og:title" content="{escape(title,quote=True)}"><meta property="og:description" content="{escape(description,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{share_image}">{share_image_details}<meta property="og:image:alt" content="{image_alt}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{escape(title,quote=True)}"><meta name="twitter:description" content="{escape(description,quote=True)}"><meta name="twitter:image" content="{share_image}"><meta name="twitter:image:alt" content="{image_alt}"><link rel="preload" href="{prefix}assets/Oswald.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="{prefix}assets/site.css?v=14"><script type="application/ld+json">{schema}</script><script defer src="{prefix}assets/site.js?v=13"></script></head><body>'''
 
     markup=markup.replace('</head>', f'<link rel="stylesheet" href="{prefix}assets/vendor/leaflet.min.css"><link rel="stylesheet" href="{prefix}assets/location.css?v=5"><script defer src="{prefix}assets/location.js?v=7"></script></head>')
-    icons=''.join(f'<link rel="icon" type="image/png" sizes="{size}x{size}" href="{prefix}assets/favicon-{size}.png">' for size in (16,32))
-    icons+=f'<link rel="apple-touch-icon" sizes="180x180" href="{prefix}assets/apple-touch-icon.png">'
+    icons=(
+        f'<link rel="icon" sizes="16x16 32x32 48x48" href="{prefix}favicon.ico">'
+        f'<link rel="icon" type="image/png" sizes="96x96" href="{prefix}assets/favicon-96.png">'
+        f'<link rel="apple-touch-icon" sizes="180x180" href="{prefix}assets/apple-touch-icon.png">'
+    )
     markup=markup.replace('</head>',icons+'</head>').replace('charset="utf-8"','charset="UTF-8"').replace('initial-scale=1"','initial-scale=1.0"')
     return markup.replace('><','>\n<')
 
@@ -276,6 +284,7 @@ def main():
     (output/'robots.txt').write_text(robots,encoding='utf-8')
     if output!=ROOT:
         shutil.copytree(ROOT/'assets',output/'assets',dirs_exist_ok=True)
+        shutil.copyfile(ROOT/'favicon.ico',output/'favicon.ico')
     print(f'Built homepage and {len(SERVICES)} service pages ({"production" if PRODUCTION else "local preview"}).')
 
 if __name__=='__main__':main()
